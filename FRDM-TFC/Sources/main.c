@@ -4,7 +4,7 @@
 int main(void)
 {
 	uint32_t t,i=0;
-	
+	//testing from git on windows 10 
 	TFC_Init();
 	
 	for(;;)

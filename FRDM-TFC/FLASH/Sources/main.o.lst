@@ -61,7 +61,7 @@
   56              		.loc 1 6 0
   57 0006 0023     		mov	r3, #0
   58 0008 3B60     		str	r3, [r7]
-   7:../Sources/main.c **** 	
+   7:../Sources/main.c **** 	//testing from git on windows 10 
    8:../Sources/main.c **** 	TFC_Init();
   59              		.loc 1 8 0
   60 000a FFF7FEFF 		bl	TFC_Init
@@ -588,17 +588,17 @@
  452              		.text
  453              	.Letext0:
  454              		.file 2 "C:/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/cstdint"
- 455              		.file 3 "C:/Users/dickwyn/OneDrive/R1.0/FRDM-TFC/Project_Headers/MKL25Z4.h"
- 456              		.file 4 "C:/Users/dickwyn/OneDrive/R1.0/FRDM-TFC/Project_Headers/TFC\\TFC_Queue.h"
- 457              		.file 5 "C:/Users/dickwyn/OneDrive/R1.0/FRDM-TFC/Project_Headers/TFC\\TFC_ARM_SysTick.h"
- 458              		.file 6 "C:/Users/dickwyn/OneDrive/R1.0/FRDM-TFC/Project_Headers/TFC\\TFC_LineScanCamera.h"
- 459              		.file 7 "C:/Users/dickwyn/OneDrive/R1.0/FRDM-TFC/Project_Headers/TFC\\TFC_UART.h"
+ 455              		.file 3 "C:/Users/dickw/git/orangeRun/FRDM-TFC/Project_Headers/MKL25Z4.h"
+ 456              		.file 4 "C:/Users/dickw/git/orangeRun/FRDM-TFC/Project_Headers/TFC\\TFC_Queue.h"
+ 457              		.file 5 "C:/Users/dickw/git/orangeRun/FRDM-TFC/Project_Headers/TFC\\TFC_ARM_SysTick.h"
+ 458              		.file 6 "C:/Users/dickw/git/orangeRun/FRDM-TFC/Project_Headers/TFC\\TFC_LineScanCamera.h"
+ 459              		.file 7 "C:/Users/dickw/git/orangeRun/FRDM-TFC/Project_Headers/TFC\\TFC_UART.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\dickwyn\AppData\Local\Temp\ccQTGRIT.s:18     .rodata:00000000 $d
-C:\Users\dickwyn\AppData\Local\Temp\ccQTGRIT.s:34     .text.main:00000000 $t
-C:\Users\dickwyn\AppData\Local\Temp\ccQTGRIT.s:39     .text.main:00000000 main
-C:\Users\dickwyn\AppData\Local\Temp\ccQTGRIT.s:436    .text.main:00000264 $d
+C:\Users\dickw\AppData\Local\Temp\cceZ4KX1.s:18     .rodata:00000000 $d
+C:\Users\dickw\AppData\Local\Temp\cceZ4KX1.s:34     .text.main:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\cceZ4KX1.s:39     .text.main:00000000 main
+C:\Users\dickw\AppData\Local\Temp\cceZ4KX1.s:436    .text.main:00000264 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
