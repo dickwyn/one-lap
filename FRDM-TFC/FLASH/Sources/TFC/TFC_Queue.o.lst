@@ -649,25 +649,25 @@
  562              		.file 5 "<built-in>"
 DEFINED SYMBOLS
                             *ABS*:00000000 TFC_Queue.c
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:18     .bss.StringBuffer:00000000 $d
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:21     .bss.StringBuffer:00000000 StringBuffer
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:24     .text.InitByteQueue:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:29     .text.InitByteQueue:00000000 InitByteQueue
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:111    .text.BytesInQueue:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:116    .text.BytesInQueue:00000000 BytesInQueue
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:181    .text.ByteEnqueue:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:186    .text.ByteEnqueue:00000000 ByteEnqueue
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:260    .text.ByteEnqueue:00000060 $d
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:265    .text.ByteArrayEnqueue:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:270    .text.ByteArrayEnqueue:00000000 ByteArrayEnqueue
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:337    .text.Qprintf:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:342    .text.Qprintf:00000000 Qprintf
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:398    .text.Qprintf:0000004c $d
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:403    .text.ByteDequeue:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:408    .text.ByteDequeue:00000000 ByteDequeue
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:477    .text.ByteDequeue:00000058 $d
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:482    .text.ForcedByteDequeue:00000000 $t
-C:\Users\dickw\AppData\Local\Temp\ccCWu6QT.s:487    .text.ForcedByteDequeue:00000000 ForcedByteDequeue
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:18     .bss.StringBuffer:00000000 $d
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:21     .bss.StringBuffer:00000000 StringBuffer
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:24     .text.InitByteQueue:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:29     .text.InitByteQueue:00000000 InitByteQueue
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:111    .text.BytesInQueue:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:116    .text.BytesInQueue:00000000 BytesInQueue
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:181    .text.ByteEnqueue:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:186    .text.ByteEnqueue:00000000 ByteEnqueue
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:260    .text.ByteEnqueue:00000060 $d
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:265    .text.ByteArrayEnqueue:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:270    .text.ByteArrayEnqueue:00000000 ByteArrayEnqueue
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:337    .text.Qprintf:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:342    .text.Qprintf:00000000 Qprintf
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:398    .text.Qprintf:0000004c $d
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:403    .text.ByteDequeue:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:408    .text.ByteDequeue:00000000 ByteDequeue
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:477    .text.ByteDequeue:00000058 $d
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:482    .text.ForcedByteDequeue:00000000 $t
+C:\Users\dickw\AppData\Local\Temp\ccSPQKnU.s:487    .text.ForcedByteDequeue:00000000 ForcedByteDequeue
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

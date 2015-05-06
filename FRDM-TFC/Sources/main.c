@@ -3,8 +3,7 @@
 
 int main(void)
 {
-	uint32_t t,i=0;
-	//testing from git on windows 10 
+	uint32_t t,i=0; 
 	TFC_Init();
 	
 	for(;;)
@@ -111,12 +110,12 @@ int main(void)
 						
 						 for(i=0;i<128;i++)
 						 {
-								 TERMINAL_PRINTF("%X,",LineScanImage0[i]);
+								 TERMINAL_PRINTF("%X \n",LineScanImage0[i]);
 						 }
-						
+						//TERMINAL_PRINTF("\r\nCurrent:\r\n");
 						 for(i=0;i<128;i++)
 						 {
-								 TERMINAL_PRINTF("%X",LineScanImage1[i]);
+								 TERMINAL_PRINTF("%X \n",LineScanImage1[i]);
 								 if(i==127)
 									 TERMINAL_PRINTF("\r\n",LineScanImage1[i]);
 								 else
