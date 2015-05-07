@@ -1,26 +1,17 @@
-/*
- * main implementation: use this 'C' sample to create your own application
- *
- */
-
-
-
-
-
-#include "derivative.h" /* include peripheral declarations */
-
+#include "derivative.h"
+#include "TFC\TFC.h"
 
 
 int main(void)
 {
-	int counter = 0;
 	
-	
-	
-	
-	for(;;) {	   
-	   	counter++;
-	}
+	TFC_Ticker[0] = 0;
+	do 
+	{
+		TFC_HBRIDGE_ENABLE;
+		TFC_SetServo;
+		
+	}while (/*straight line detected*/);
 	
 	return 0;
 }
