@@ -4,14 +4,45 @@
 
 int main(void)
 {
+	uint32_t t, i=0;
+	TFC_Init();
 	
-	TFC_Ticker[0] = 0;
-	do 
+	for (;;)
 	{
-		TFC_HBRIDGE_ENABLE;
-		TFC_SetServo;
 		
-	}while (/*straight line detected*/);
+		TFC_SetServo(0,0);
+		StartMotor();
+		
+		if (/*horizontal black line*/)
+		{
+			TFC_SetMotorPWM(0.5,0.5);
+		} 
+		else
+		{
+			stopMotor();
+		}
+		
+	}
 	
-	return 0;
 }
+
+void startMotor()
+{
+	TFC_HBRIDGE_ENABLE;
+}
+
+void stopMotor() 
+{
+	TFC_SetMotorPWM(0,0);
+	TFC_HBRIDGE_DISABLE;
+}
+
+void servoDirection(float Position)
+{
+	if(TFC_Ticker[0] >= 20)
+	{
+		TFC_Ticker = 0;
+		TFC_SetServo(0, Position);
+	}
+}
+
