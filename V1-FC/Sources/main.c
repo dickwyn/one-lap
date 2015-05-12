@@ -6,24 +6,45 @@ int main(void)
 {
 	uint32_t t, i=0;
 	TFC_Init();
-	
+
 	for (;;)
 	{
-		
+
 		TFC_SetServo(0,0);
 		StartMotor();
-		
+
+		if(TFC_Ticker[1] >= 125)
+		{
+			TFC_Ticker[1] = 0;
+			t++;
+			if(t>4)
+			{
+				t=0;
+			}			
+			TFC_SetBatteryLED_Level(t);
+		}
+		break;
+
 		if (/*horizontal black line*/)
 		{
-			TFC_SetMotorPWM(0.5,0.5);
+			TFC_SetMotorPWM(0.6,0.6);
+			if (/*straight line*/)
+			{
+				straightLine();
+			}
+			else 
+			{
+				TFC_SetMotorPWM(0.4,0.4);
+				curvedLine();
+			}
 		} 
 		else
 		{
 			stopMotor();
 		}
-		
+
 	}
-	
+
 }
 
 void startMotor()
@@ -44,5 +65,20 @@ void servoDirection(float Position)
 		TFC_Ticker = 0;
 		TFC_SetServo(0, Position);
 	}
+}
+
+void straightLine ()
+{
+	//taking in data for 44 to 84 bit
+	//find the mid point
+	//move servo direction servoDirection()
+	//set speed to 0.8
+}
+
+void curvedLine()
+{
+	//IF taking in data for bit 0 to 43 
+	//ELSE IF taking in data for bit 85 to 128
+	//direction servo to direction servoDirection()
 }
 
