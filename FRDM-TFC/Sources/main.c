@@ -102,7 +102,7 @@ int main(void)
 					 TERMINAL_PRINTF("L:");
 					 
 					 	if(t==0)
-					 		t=3;
+					 		t=4;
 					 	else
 					 		t--;
 					 	
