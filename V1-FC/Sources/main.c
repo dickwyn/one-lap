@@ -77,8 +77,27 @@ void straightLine ()
 
 void curvedLine()
 {
-	//IF taking in data for bit 0 to 43 
-	//ELSE IF taking in data for bit 85 to 128
+	if (/*data for bit 0 to 43*/)
+	{
+		//IF taking in data for bit 0 to 43
+		//move servo to left
+	}
+	else if (/*data for bit 85 to 128*/)
+	{
+		//ELSE IF taking in data for bit 85 to 128
+		//move servo to right
+	}
+	else 
+	{
+		//invoke midpoint
+		//set servo
+	}
 	//direction servo to direction servoDirection()
 }
+
+float midpoint(float hexNumber) 
+{
+	//add the two left and right bits and divide by 2
+}
+
 
